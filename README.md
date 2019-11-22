@@ -39,7 +39,8 @@ docker exec -it material_requisition_db psql -U postgres -f /scripts/insert_mate
 
 You can try with:
 
-http://<host>:8085/swagger-ui.html
+http://localhost:8085/swagger-ui.html (for internal) or
+http://127.0.0.1:8085/swagger-ui.html 
 
 Some of the payloads to test a devolution and a requisition:
 
